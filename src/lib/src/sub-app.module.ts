@@ -14,6 +14,6 @@ import { ThingsSearchItemComponent } from './component/things-search-item/things
   ],
   declarations: [ThingsComponent, ThingDetailComponent, SubAppComponent, ThingsSearchItemComponent],
   providers: [ThingsService],
-  exports: [ThingsComponent, ThingsSearchItemComponent]
+  exports: [ThingsComponent, ThingsSearchItemComponent, SubAppComponent]
 })
 export class SubAppModule { }
