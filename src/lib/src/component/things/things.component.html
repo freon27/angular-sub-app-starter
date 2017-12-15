@@ -1,0 +1,19 @@
+
+<div class="things">
+  <h1 class="things__header">Things</h1>
+  <div>
+    <h4>From parent:</h4>
+    <p>{{ country }}</p>
+    <p>{{ type }}</p>
+  </div>
+  <div class="things__list">
+    <div class="things__thing" *ngFor="let thing of data; let i = index">
+      <a routerLink="{{ i + 1 }}" class="things__name">{{ thing.name }}</a>
+      <span class="things__rating">
+        <span>{{ '*'.repeat(thing.rating)}}</span>
+      </span>
+    </div>
+  </div>
+  <button>Add Thing</button>
+  <a routerLink="/proposals">Prop</a>
+</div>
