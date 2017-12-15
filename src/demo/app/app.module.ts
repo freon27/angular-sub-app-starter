@@ -1,14 +1,14 @@
 import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { LibModule } from 'quickstart-lib';
-import { SubAppModule} from 'quickstart-lib';
-import { SubAppComponent} from 'quickstart-lib';
-import { subAppChildRoutes} from 'quickstart-lib';
+import { LibModule } from 'sub-app';
+import { SubAppModule} from 'sub-app';
+import { SubAppComponent} from 'sub-app';
+import { subAppChildRoutes} from 'sub-app';
 import {Route, RouterModule} from '@angular/router';
 import { AppComponent }  from './app.component';
 
 const baseRoutes = [{
-  path: 'sub',
+  path: '',
   component: SubAppComponent,
   children: subAppChildRoutes
 }];

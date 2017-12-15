@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import { LibService } from 'quickstart-lib';
+import { LibService } from 'sub-app';
 import {Router} from '@angular/router';
 
 @Component({

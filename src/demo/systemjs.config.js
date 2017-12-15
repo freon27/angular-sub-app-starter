@@ -43,7 +43,7 @@
         defaultExtension: 'js',
         main: 'index'
       },
-      'quickstart-lib': {
+      'sub-app': {
         main: 'index.js',
         defaultExtension: 'js',
         meta: {
