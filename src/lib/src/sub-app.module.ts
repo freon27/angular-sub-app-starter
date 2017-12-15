@@ -10,7 +10,7 @@ import { ThingsSearchItemComponent } from './component/things-search-item/things
 @NgModule({
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule.forChild([])
   ],
   declarations: [ThingsComponent, ThingDetailComponent, SubAppComponent, ThingsSearchItemComponent],
   providers: [ThingsService],
