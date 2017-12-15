@@ -13,3 +13,11 @@ e2e/**/*.js
 e2e/**/*.js.map
 coverage
 **/got.idea/
+
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
