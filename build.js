@@ -62,7 +62,7 @@ return Promise.resolve()
       external: [
         // List of dependencies
         // See https://github.com/rollup/rollup/wiki/JavaScript-API#external for more.
-        '@angular/core'
+        '@angular/core', '@angular/router'
       ],
       plugins: [
         commonjs({
