@@ -1,5 +1,4 @@
 import {Component, OnInit} from '@angular/core';
-import { LibService } from 'sub-app';
 import {Router} from '@angular/router';
 
 @Component({
@@ -8,9 +7,7 @@ import {Router} from '@angular/router';
 })
 export class AppComponent implements OnInit {
   meaning: number;
-  constructor(libService: LibService, private router: Router) {
-    this.meaning = libService.getMeaning();
-  }
+  constructor(private router: Router) {}
 
   ngOnInit() {
     console.log('configured routes: ', this.router.config);

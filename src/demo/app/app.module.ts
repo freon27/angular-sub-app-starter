@@ -1,6 +1,5 @@
 import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { LibModule } from 'sub-app';
 import { SubAppModule} from 'sub-app';
 import { SubAppComponent} from 'sub-app';
 import { subAppChildRoutes} from 'sub-app';
@@ -14,7 +13,7 @@ const baseRoutes = [{
 }];
 
 @NgModule({
-  imports:      [ BrowserModule, LibModule, SubAppModule, RouterModule.forRoot(baseRoutes)],
+  imports:      [ BrowserModule, SubAppModule, RouterModule.forRoot(baseRoutes)],
   declarations: [ AppComponent ],
   bootstrap:    [ AppComponent ]
 })
